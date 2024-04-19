@@ -48,7 +48,7 @@ setInterval(() => client.user.setActivity({
   type: ActivityType.Watching }), 10000);
 client.errorLog = config.errorLog
 } else {
-console.log('\x1b[36m%s\x1b[0m', `|    🍔 Error MongoDB!`)
+console.log('\x1b[36m%s\x1b[0m', `|    🍔 Error!`)
 }
 console.log('\x1b[36m%s\x1b[0m', `|    🎯 Activity sucessfully set!`);
 
